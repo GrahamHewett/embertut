@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'counter-component',
+    modulePrefix: 'official-tutorial',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -46,6 +46,7 @@ module.exports = function(environment) {
   if (environment === 'production') {
     // here you can enable a production-specific feature
   }
+  ENV.MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiZ3JheTEzIiwiYSI6ImNrNndtM3VtMTBjdXczZW1vYXpvYXQ5djQifQ.FvMGC2L3SMZon_LT6-kzbA';
 
   return ENV;
 };
